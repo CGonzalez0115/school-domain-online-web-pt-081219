@@ -23,7 +23,7 @@ class School
   end
 
   def sort
-    Hash[ roster.sort_by{ |name| name.capitalize } ]
+    Hash[ roster.sort_by{ |name| name } ]
     puts roster
   end
 end
