@@ -23,6 +23,7 @@ class School
   end
 
   def sort
-    Hash[ roster.sort_by{ |name| name }.sort ]
+    
+    @schools.sort_by!{ |school| school[:roster][:name] }
   end
 end
