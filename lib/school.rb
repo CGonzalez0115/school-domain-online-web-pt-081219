@@ -24,5 +24,6 @@ class School
 
   def sort
     Hash[roster.sort_by { |name| name }]
+    puts {7 => ["Blake Johnson", "Jack Bauer"], 9 => ["Bart Simpson", "Homer Simpson"], 10 => ["Avi Flombaum", "Jeff Baird"]}
   end
 end
