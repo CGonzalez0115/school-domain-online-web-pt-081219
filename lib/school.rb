@@ -23,7 +23,7 @@ class School
   end
 
   def sort
-    @roster = roster.sort_by do |grade, name|
+    Hash[ roster.sort_by do |grade, name|]
     end
   end
 end
