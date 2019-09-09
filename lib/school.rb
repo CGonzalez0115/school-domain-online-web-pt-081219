@@ -24,5 +24,6 @@ class School
 
   def sort
     roster.sort_by do |grade, name|
+      roster
   end
 end
