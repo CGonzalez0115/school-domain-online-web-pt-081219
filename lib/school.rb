@@ -22,8 +22,8 @@ class School
     roster[grade]
   end
 
-  def sort(grade, name)
-    roster = roster.sort_by do |grade, name|
+  def sort
+    @roster = roster.sort_by do |grade, name|
       roster
     end
   end
