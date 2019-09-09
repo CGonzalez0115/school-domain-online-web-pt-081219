@@ -23,6 +23,6 @@ class School
   end
 
   def sort
-    Hash[ roster.sort_by{ |firstname| firstname } ]
+    roster.sort_by do |grade, name|
   end
 end
