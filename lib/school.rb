@@ -23,7 +23,7 @@ class School
   end
 
   def sort
-    
+
     @schools.sort_by!{ |school| school[:roster][:name] }
   end
 end
