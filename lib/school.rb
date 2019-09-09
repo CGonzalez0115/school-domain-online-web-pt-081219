@@ -24,6 +24,5 @@ class School
 
   def sort
     Hash[ roster.sort_by { |name| name } ]
-    puts roster
   end
 end
